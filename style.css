@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Urbanist", serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.heading h1 {
+  font-size: 3.2rem;
+  text-transform: capitalize;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.heading p {
+  font-size: 2rem;
+  text-decoration: dotted;
+}
+.textCheckBox {
+  position: relative;
+  text-align: center;
+}
+.textCheckBox .textBox {
+  width: 45rem;
+  position: relative;
+  height: 22.5rem;
+  /* border: 0.01px solid transparent; */
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+::placeholder {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-weight: 400;
+}
+.textCheckBox .btn {
+  position: absolute;
+  bottom: 15px;
+  left: 215px;
+  text-align: center;
+  cursor: pointer;
+  /*margin: 0 0 10rem 0;
+  */
+  padding: 0.8rem;
+  color: white;
+  border: 0.1rem solid transparent;
+  background-color: #0fa684;
+  border-radius: 0.4rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+}
+.check {
+  display: none;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 3rem 0 3rem;
+
+  & p {
+    margin: 1.6rem 0 0 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+}
